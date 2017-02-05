@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56232E9D1DF9EDF20023D6A2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 56232E991DF9EDF20023D6A2 /* Reachability.m */; };
+		56232E9E1DF9EDF20023D6A2 /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 56232E9B1DF9EDF20023D6A2 /* HTTPClient.m */; };
+		56232EA11DF9EE040023D6A2 /* CoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56232E9F1DF9EE040023D6A2 /* CoreDataController.m */; };
+		56232EA51DF9EE6F0023D6A2 /* ErrorHandlingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 56232EA31DF9EE6F0023D6A2 /* ErrorHandlingLayer.m */; };
+		56232EAA1DF9EE7B0023D6A2 /* TrendingPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56232EA61DF9EE7B0023D6A2 /* TrendingPhotosCollectionViewController.m */; };
+		56232EAB1DF9EE7B0023D6A2 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56232EA81DF9EE7B0023D6A2 /* ImageViewController.m */; };
+		56232EB01DF9EE8B0023D6A2 /* UIViewController+Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 56232EAC1DF9EE8B0023D6A2 /* UIViewController+Alerts.m */; };
+		56232EB11DF9EE8B0023D6A2 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56232EAE1DF9EE8B0023D6A2 /* PhotoCollectionViewCell.m */; };
+		563241E41DF8829D00699B65 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 563241E11DF8829D00699B65 /* FlickrPhoto.m */; };
+		563241E51DF8829D00699B65 /* FlickrPhoto+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 563241E31DF8829D00699B65 /* FlickrPhoto+CoreDataProperties.m */; };
+		567430681DF81E97003DF448 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 567430671DF81E97003DF448 /* main.m */; };
+		5674306B1DF81E97003DF448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5674306A1DF81E97003DF448 /* AppDelegate.m */; };
+		567430711DF81E97003DF448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5674306F1DF81E97003DF448 /* Main.storyboard */; };
+		567430741DF81E97003DF448 /* FlickerPopularImages.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 567430721DF81E97003DF448 /* FlickerPopularImages.xcdatamodeld */; };
+		567430761DF81E97003DF448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567430751DF81E97003DF448 /* Assets.xcassets */; };
+		567430791DF81E97003DF448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567430771DF81E97003DF448 /* LaunchScreen.storyboard */; };
+		5674308F1DF83F78003DF448 /* SearchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5674308E1DF83F78003DF448 /* SearchManager.m */; };
+		685E423A662C5F7398A5487E /* libPods-FlickerPopularImages.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9324EAB6A65BED8633D94344 /* libPods-FlickerPopularImages.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B0F7D63D6B746F68A5A3991 /* Pods-FlickerPopularImages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerPopularImages.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlickerPopularImages/Pods-FlickerPopularImages.release.xcconfig"; sourceTree = "<group>"; };
+		56232E991DF9EDF20023D6A2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Network/Reachability.m; sourceTree = "<group>"; };
+		56232E9A1DF9EDF20023D6A2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Network/Reachability.h; sourceTree = "<group>"; };
+		56232E9B1DF9EDF20023D6A2 /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPClient.m; path = Network/HTTPClient.m; sourceTree = "<group>"; };
+		56232E9C1DF9EDF20023D6A2 /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPClient.h; path = Network/HTTPClient.h; sourceTree = "<group>"; };
+		56232E9F1DF9EE040023D6A2 /* CoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataController.m; path = "core data/CoreDataController.m"; sourceTree = "<group>"; };
+		56232EA01DF9EE040023D6A2 /* CoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataController.h; path = "core data/CoreDataController.h"; sourceTree = "<group>"; };
+		56232EA21DF9EE6F0023D6A2 /* WebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebServices.h; path = Network/WebServices.h; sourceTree = "<group>"; };
+		56232EA31DF9EE6F0023D6A2 /* ErrorHandlingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ErrorHandlingLayer.m; path = Network/ErrorHandlingLayer.m; sourceTree = "<group>"; };
+		56232EA41DF9EE6F0023D6A2 /* ErrorHandlingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ErrorHandlingLayer.h; path = Network/ErrorHandlingLayer.h; sourceTree = "<group>"; };
+		56232EA61DF9EE7B0023D6A2 /* TrendingPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrendingPhotosCollectionViewController.m; path = Controller/TrendingPhotosCollectionViewController.m; sourceTree = "<group>"; };
+		56232EA71DF9EE7B0023D6A2 /* TrendingPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrendingPhotosCollectionViewController.h; path = Controller/TrendingPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		56232EA81DF9EE7B0023D6A2 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = Controller/ImageViewController.m; sourceTree = "<group>"; };
+		56232EA91DF9EE7B0023D6A2 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = Controller/ImageViewController.h; sourceTree = "<group>"; };
+		56232EAC1DF9EE8B0023D6A2 /* UIViewController+Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Alerts.m"; path = "Custom views/UIViewController+Alerts.m"; sourceTree = "<group>"; };
+		56232EAD1DF9EE8B0023D6A2 /* UIViewController+Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Alerts.h"; path = "Custom views/UIViewController+Alerts.h"; sourceTree = "<group>"; };
+		56232EAE1DF9EE8B0023D6A2 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoCollectionViewCell.m; path = "Custom views/PhotoCollectionViewCell.m"; sourceTree = "<group>"; };
+		56232EAF1DF9EE8B0023D6A2 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoCollectionViewCell.h; path = "Custom views/PhotoCollectionViewCell.h"; sourceTree = "<group>"; };
+		563241E01DF8829D00699B65 /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlickrPhoto.h; path = FlickerPopularImages/Model/FlickrPhoto.h; sourceTree = "<group>"; };
+		563241E11DF8829D00699B65 /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlickrPhoto.m; path = FlickerPopularImages/Model/FlickrPhoto.m; sourceTree = "<group>"; };
+		563241E21DF8829D00699B65 /* FlickrPhoto+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FlickrPhoto+CoreDataProperties.h"; path = "FlickerPopularImages/Model/FlickrPhoto+CoreDataProperties.h"; sourceTree = "<group>"; };
+		563241E31DF8829D00699B65 /* FlickrPhoto+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "FlickrPhoto+CoreDataProperties.m"; path = "FlickerPopularImages/Model/FlickrPhoto+CoreDataProperties.m"; sourceTree = "<group>"; };
+		567430631DF81E97003DF448 /* FlickerPopularImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickerPopularImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		567430671DF81E97003DF448 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		567430691DF81E97003DF448 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5674306A1DF81E97003DF448 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		567430701DF81E97003DF448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		567430731DF81E97003DF448 /* FlickerPopularImages.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlickerPopularImages.xcdatamodel; sourceTree = "<group>"; };
+		567430751DF81E97003DF448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		567430781DF81E97003DF448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5674307A1DF81E97003DF448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5674308D1DF83F78003DF448 /* SearchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchManager.h; path = Network/SearchManager.h; sourceTree = "<group>"; };
+		5674308E1DF83F78003DF448 /* SearchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchManager.m; path = Network/SearchManager.m; sourceTree = "<group>"; };
+		686581DB3A3D912B4B5FDFCE /* Pods-FlickerPopularImages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerPopularImages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlickerPopularImages/Pods-FlickerPopularImages.debug.xcconfig"; sourceTree = "<group>"; };
+		9324EAB6A65BED8633D94344 /* libPods-FlickerPopularImages.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlickerPopularImages.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		567430601DF81E97003DF448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685E423A662C5F7398A5487E /* libPods-FlickerPopularImages.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		563241E61DF8976800699B65 /* Core data */ = {
+			isa = PBXGroup;
+			children = (
+				56232E9F1DF9EE040023D6A2 /* CoreDataController.m */,
+				56232EA01DF9EE040023D6A2 /* CoreDataController.h */,
+			);
+			name = "Core data";
+			sourceTree = "<group>";
+		};
+		566FC0781DF934C7000660CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				56232EA61DF9EE7B0023D6A2 /* TrendingPhotosCollectionViewController.m */,
+				56232EA71DF9EE7B0023D6A2 /* TrendingPhotosCollectionViewController.h */,
+				56232EA81DF9EE7B0023D6A2 /* ImageViewController.m */,
+				56232EA91DF9EE7B0023D6A2 /* ImageViewController.h */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		566FC0791DF93FD7000660CC /* Custom view */ = {
+			isa = PBXGroup;
+			children = (
+				56232EAC1DF9EE8B0023D6A2 /* UIViewController+Alerts.m */,
+				56232EAD1DF9EE8B0023D6A2 /* UIViewController+Alerts.h */,
+				56232EAE1DF9EE8B0023D6A2 /* PhotoCollectionViewCell.m */,
+				56232EAF1DF9EE8B0023D6A2 /* PhotoCollectionViewCell.h */,
+			);
+			name = "Custom view";
+			sourceTree = "<group>";
+		};
+		5674305A1DF81E97003DF448 = {
+			isa = PBXGroup;
+			children = (
+				567430651DF81E97003DF448 /* FlickerPopularImages */,
+				567430641DF81E97003DF448 /* Products */,
+				92A0729468FB607D9131019A /* Pods */,
+				A62E8B4DB1D78F128F14D9C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		567430641DF81E97003DF448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				567430631DF81E97003DF448 /* FlickerPopularImages.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		567430651DF81E97003DF448 /* FlickerPopularImages */ = {
+			isa = PBXGroup;
+			children = (
+				567430691DF81E97003DF448 /* AppDelegate.h */,
+				5674306A1DF81E97003DF448 /* AppDelegate.m */,
+				563241E61DF8976800699B65 /* Core data */,
+				567430821DF835EF003DF448 /* Network */,
+				567430961DF84A50003DF448 /* Model */,
+				566FC0781DF934C7000660CC /* Controller */,
+				566FC0791DF93FD7000660CC /* Custom view */,
+				5674306F1DF81E97003DF448 /* Main.storyboard */,
+				567430751DF81E97003DF448 /* Assets.xcassets */,
+				567430771DF81E97003DF448 /* LaunchScreen.storyboard */,
+				5674307A1DF81E97003DF448 /* Info.plist */,
+				567430721DF81E97003DF448 /* FlickerPopularImages.xcdatamodeld */,
+				567430661DF81E97003DF448 /* Supporting Files */,
+			);
+			path = FlickerPopularImages;
+			sourceTree = "<group>";
+		};
+		567430661DF81E97003DF448 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				567430671DF81E97003DF448 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		567430821DF835EF003DF448 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				56232EA21DF9EE6F0023D6A2 /* WebServices.h */,
+				56232EA31DF9EE6F0023D6A2 /* ErrorHandlingLayer.m */,
+				56232EA41DF9EE6F0023D6A2 /* ErrorHandlingLayer.h */,
+				56232E991DF9EDF20023D6A2 /* Reachability.m */,
+				56232E9A1DF9EDF20023D6A2 /* Reachability.h */,
+				56232E9B1DF9EDF20023D6A2 /* HTTPClient.m */,
+				56232E9C1DF9EDF20023D6A2 /* HTTPClient.h */,
+				5674308D1DF83F78003DF448 /* SearchManager.h */,
+				5674308E1DF83F78003DF448 /* SearchManager.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		567430961DF84A50003DF448 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				563241E01DF8829D00699B65 /* FlickrPhoto.h */,
+				563241E11DF8829D00699B65 /* FlickrPhoto.m */,
+				563241E21DF8829D00699B65 /* FlickrPhoto+CoreDataProperties.h */,
+				563241E31DF8829D00699B65 /* FlickrPhoto+CoreDataProperties.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		92A0729468FB607D9131019A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				686581DB3A3D912B4B5FDFCE /* Pods-FlickerPopularImages.debug.xcconfig */,
+				4B0F7D63D6B746F68A5A3991 /* Pods-FlickerPopularImages.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A62E8B4DB1D78F128F14D9C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9324EAB6A65BED8633D94344 /* libPods-FlickerPopularImages.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		567430621DF81E97003DF448 /* FlickerPopularImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5674307D1DF81E97003DF448 /* Build configuration list for PBXNativeTarget "FlickerPopularImages" */;
+			buildPhases = (
+				0A34AD005DBA332BA6656422 /* [CP] Check Pods Manifest.lock */,
+				5674305F1DF81E97003DF448 /* Sources */,
+				567430601DF81E97003DF448 /* Frameworks */,
+				567430611DF81E97003DF448 /* Resources */,
+				1B66A3F4610557FC1DC98271 /* [CP] Embed Pods Frameworks */,
+				20D7E4E3C88674D57815B4BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlickerPopularImages;
+			productName = FlickerPopularImages;
+			productReference = 567430631DF81E97003DF448 /* FlickerPopularImages.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5674305B1DF81E97003DF448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Marian;
+				TargetAttributes = {
+					567430621DF81E97003DF448 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = FPXNQTY99F;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5674305E1DF81E97003DF448 /* Build configuration list for PBXProject "FlickerPopularImages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5674305A1DF81E97003DF448;
+			productRefGroup = 567430641DF81E97003DF448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				567430621DF81E97003DF448 /* FlickerPopularImages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		567430611DF81E97003DF448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567430791DF81E97003DF448 /* LaunchScreen.storyboard in Resources */,
+				567430761DF81E97003DF448 /* Assets.xcassets in Resources */,
+				567430711DF81E97003DF448 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A34AD005DBA332BA6656422 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1B66A3F4610557FC1DC98271 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlickerPopularImages/Pods-FlickerPopularImages-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20D7E4E3C88674D57815B4BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlickerPopularImages/Pods-FlickerPopularImages-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5674305F1DF81E97003DF448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563241E41DF8829D00699B65 /* FlickrPhoto.m in Sources */,
+				56232EAB1DF9EE7B0023D6A2 /* ImageViewController.m in Sources */,
+				56232E9D1DF9EDF20023D6A2 /* Reachability.m in Sources */,
+				56232EA51DF9EE6F0023D6A2 /* ErrorHandlingLayer.m in Sources */,
+				56232EB11DF9EE8B0023D6A2 /* PhotoCollectionViewCell.m in Sources */,
+				5674308F1DF83F78003DF448 /* SearchManager.m in Sources */,
+				56232EB01DF9EE8B0023D6A2 /* UIViewController+Alerts.m in Sources */,
+				56232E9E1DF9EDF20023D6A2 /* HTTPClient.m in Sources */,
+				56232EAA1DF9EE7B0023D6A2 /* TrendingPhotosCollectionViewController.m in Sources */,
+				563241E51DF8829D00699B65 /* FlickrPhoto+CoreDataProperties.m in Sources */,
+				5674306B1DF81E97003DF448 /* AppDelegate.m in Sources */,
+				56232EA11DF9EE040023D6A2 /* CoreDataController.m in Sources */,
+				567430741DF81E97003DF448 /* FlickerPopularImages.xcdatamodeld in Sources */,
+				567430681DF81E97003DF448 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5674306F1DF81E97003DF448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				567430701DF81E97003DF448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		567430771DF81E97003DF448 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				567430781DF81E97003DF448 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5674307B1DF81E97003DF448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5674307C1DF81E97003DF448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5674307E1DF81E97003DF448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 686581DB3A3D912B4B5FDFCE /* Pods-FlickerPopularImages.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FPXNQTY99F;
+				INFOPLIST_FILE = FlickerPopularImages/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marian.FlickerPopularImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5674307F1DF81E97003DF448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0F7D63D6B746F68A5A3991 /* Pods-FlickerPopularImages.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FPXNQTY99F;
+				INFOPLIST_FILE = FlickerPopularImages/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Marian.FlickerPopularImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5674305E1DF81E97003DF448 /* Build configuration list for PBXProject "FlickerPopularImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5674307B1DF81E97003DF448 /* Debug */,
+				5674307C1DF81E97003DF448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5674307D1DF81E97003DF448 /* Build configuration list for PBXNativeTarget "FlickerPopularImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5674307E1DF81E97003DF448 /* Debug */,
+				5674307F1DF81E97003DF448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		567430721DF81E97003DF448 /* FlickerPopularImages.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				567430731DF81E97003DF448 /* FlickerPopularImages.xcdatamodel */,
+			);
+			currentVersion = 567430731DF81E97003DF448 /* FlickerPopularImages.xcdatamodel */;
+			path = FlickerPopularImages.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5674305B1DF81E97003DF448 /* Project object */;
+}
